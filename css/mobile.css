@@ -1,0 +1,362 @@
+/*------------------- Clearfix -------------------*/
+/*
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+*/
+
+/*------------------- Loading -------------------*/
+#loading_bg {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	color: #FFFFFF;
+	z-index: 500;
+}
+
+/*------------------- Header -------------------*/
+header {
+	position: fixed;
+	font-family: Arial, sans-serif;
+	width:100%;
+	height: 20px;
+	display: block;
+	background-color: #666666;
+}
+
+.head_wrap {
+	width:100%;
+	height:20px;
+	position:relative;
+	margin:0 auto;
+}
+
+
+.header_lang {
+	height:20px;
+}
+
+.header_lang ul {
+	width:200px;
+	height:20px;
+	float: right;
+	list-style-type: none;
+	display: inline-block;
+	padding: 0px;
+	padding-right: 0px;
+	margin-top: 1px;
+} 
+
+.header_lang ul li {
+	height:20px;
+	display: inline-block;
+} 
+
+.header_lang a {
+	font-size: 1em;
+	vertical-align: middle;
+	color: #AAAAAA;
+	background-color: #333333;
+	padding: 2px 10px;
+	text-align: center;
+	text-decoration: none;
+	transition: 0.4s;
+	box-shadow: 0 0 0 rgba(0,0,0,1.00) inset;
+}
+
+
+.header_lang a:hover {
+	color: #FFFFFF;
+	box-shadow: 0 0 9px rgba(0,0,0,1.00) inset;
+	transition: 0.4s;
+}
+
+.header_lang p {
+	font-size: 1em;
+	vertical-align: middle;
+	color: #FFFFFF;
+	background-color: #555555;
+	padding: 2px 10px;
+	text-align: center;
+	box-shadow: 0 0 9px rgba(0,0,0,1.00) inset;
+	display: inline;
+}
+
+
+h1 {
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 2em;
+	vertical-align: middle;
+	color: #FFFFFF;
+	z-index: 201;
+	margin:0;
+}
+
+/*------------------- Menu -------------------*/
+nav {
+	position: fixed;
+	margin-top:20px;
+}
+
+nav h1 {
+	margin: 0 auto;
+	text-align: center;
+}
+
+#Menu {
+	width:100%;
+	height:75px;
+	background-color:#000000;
+}
+
+.menu_wrap {
+	width:100%;
+	margin:0 auto;
+	padding-top:24px;
+
+}
+
+#Menu ul {
+	margin: 0px;
+	float: right;
+	list-style-type: none;
+	display: inline;
+	padding-right:20px;
+}
+
+#Menu ul li {
+	float: left;
+	padding:0 10px;
+	display: inline-block;
+}
+
+#Menu a {
+	font-family: "Josefin Sans", sans-serif;
+	vertical-align: middle;
+	color: #FFFFFF;
+	text-align: center;
+	text-decoration: none;
+	transition: 0.4s;
+}
+
+#Menu a:hover {
+	/*font-size: 2em;*/
+	vertical-align: middle;
+	color: #00FFCC;
+	text-align: center;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+#Dropdown {
+	background-color: #000000;
+	opacity: .8;
+}
+
+.menu_list {
+	font-size: 2em;
+	display: inline;
+	visibility: hidden;
+}
+
+.menu_list a:hover {
+	font-size: 1.25em;
+	vertical-align: middle;
+	color: #00FFCC;
+	text-align: center;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+
+
+/*------------------- Header/Menu Links -------------------*/
+#about {
+	width: 100%;
+	height: 75px;
+	background-color: #000000;
+}
+
+#design {
+	width: 100%;
+	height: 75px;
+}
+
+#ui_ux {
+	width: 100%;
+	height: 75px;
+}
+
+#contact {
+	width: 100%;
+	height: 1px;
+}
+
+
+/*------------------- Main -------------------*/
+main {
+	margin:0 auto;
+	width:100%;
+}
+
+.main_wrap {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+.main_content {
+	margin: 0px;
+	padding: 50px 10px;
+	height: auto;
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 1.75em;
+	transition: 0.4s;
+}
+
+.main_content h1 {
+	color: #000000;
+	text-align: center;
+}
+
+.main_content ul {
+	height:auto;
+	display:inline-block;
+}
+
+.main_content ul li {
+	list-style-type: none;
+}
+
+.main_content p {
+	text-align: center;
+	width:100%;
+}
+
+/*------------------- Top -------------------*/
+.full_wrap {
+	width: 100%;
+	height: auto;
+}
+
+.top_h1 {
+	font-size:2.5em;
+	color: #000000;
+	background-color: #FFFFFF;
+	padding: 50px 0;
+	text-align: center;
+	vertical-align: middle;
+	height: 50px;
+}
+
+#TopBKGD {
+	width: 100%;
+	height: auto;
+	position: absolute;
+	z-index: -10;
+	visibility: hidden;
+}
+
+.top_slides_bkgd {
+	display: none;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	margin: 0px;
+	background-size: 100%;
+	 
+}
+
+.top_slides_bkgd img {
+	object-fit: cover;
+	width: 100%;
+	height: 488.28px;
+}
+
+.top_slides {
+	display: none;
+}
+
+/*------------------- About -------------------*/
+.about_img {
+	display:block;
+	width:50%;
+	margin: 0 auto;
+	transition: 0.4s;
+}
+
+/*------------------- Design -------------------*/
+
+.banner {
+	width:100%;
+	float:left;
+	height: auto;
+}
+
+.banner img {
+	display:inline-block;
+	width:95%;
+	padding:010px;
+}
+
+.button {
+	width: 95%;
+	height: auto;
+	margin: 0 auto;
+	margin-top:50px;
+}
+
+.mr0 {margin-right: 0px;}
+
+.button a {
+	float:left;
+	font-family: "Josefin Sans", sans-serif;
+	text-align: center;
+	vertical-align: center;
+	margin: 0 auto;
+  width: 100%;
+  height:auto;
+  font-size: 1.75em;
+  background-color: #DDDDDD;
+  color: #555555;
+  padding: 15px 0;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+.button a:hover {
+  font-size: 2.0em;
+  background-color: #AAAAAA;
+  color: #000000;
+  padding: 15px 0;
+  transition: 0.4s;
+}
+
+/*------------------- UI/UX -------------------*/
+.button p {
+	float:left;
+	font-family: "Josefin Sans", sans-serif;
+	text-align: center;
+	vertical-align: center;
+	margin: 0 auto;
+  width: 100%;
+  height:auto;
+  font-size: 1.75em;
+  background-color: #DDDDDD;
+  color: #555555;
+  padding: 15px 0;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+/*------------------- Footer -------------------*/
+footer {
+	width:100%;
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 1em;
+	padding: 20px;
+}
+
