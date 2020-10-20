@@ -59,4 +59,4 @@ Al Prachumsri, same as above
 Using the development emulators on browsers causes a lot of visual arifacts that shouldn't otherwise be present, nor are present when just resizing the browser manually.
 (i.e emulator causes the html to shrink in width despite being set to width:100%, fixed elements still scroll)
 
-The website is also available on github at https://tworii.github.io/TimothyQuachPortfolio/index.html
+The website is also available on github at https://tworii.github.io/Portfolio
